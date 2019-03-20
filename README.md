@@ -4,12 +4,12 @@
 Webscraper that uses the Google Cloud Storage API to store images scraped from the web. All credits due to original scraper source, modified by me for suited needs.
 
 ## Usage
-Program stored images locally and in the cloud storage. Decision made incase it fails to upload. You can then simply upload the local copy.
+Program stores images locally and in the cloud storage. Decision made incase it fails to upload. You can then simply upload the local folder copy.
 
 Scraper should grab multiple file types. At minimum .png
 
-1. Request a google service account credential. Save as .json you will use this to access your storage. 
-2. Import the proper parameters. e.g, --search basketball --amount 100 
+1. Request a google service account credential from your google bucket storage. Save as .json you will use this to access your storage. 
+2. Place the proper parameters. e.g, --search shiba --amount 100 
 
 
 ## Output
